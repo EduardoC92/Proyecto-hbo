@@ -1,0 +1,110 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(fondo.jfif);
+    background-size: contain;
+}
+#BARRA{
+    background-color: rgba(0, 0, 0, 0.993);
+    display: flex;
+    place-items: CENTER;
+    height: 50PX;
+    
+}
+#MENU{
+    color: white;
+    right: 0;
+    margin-top: 40px;
+}
+#LUPA{
+    color: white;
+    right: 200PX;
+    margin-top: 40px;
+}
+#LOGO{
+    position: absolute;
+    right: 50%;
+}
+#IMG{
+    position: absolute;
+    right: 60PX;
+}
+#USUARIO{
+    color: antiquewhite;
+    position: absolute;
+    right: 0;
+    }
+#pelicula{
+    position: relative;
+}
+video{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+h1{
+    color: rgb(253, 247, 247);
+    position: absolute;
+    top: 500px;
+}
+h2{
+    color: rgb(253, 247, 247);
+    position: absolute;
+    width: 600PX;
+    top: 550px;
+
+}
+#play{
+    color: white;
+    position: absolute;
+    top: 650px;
+    display: flex;
+    cursor: pointer;
+}
+
+.mi_button:hover {
+    font-size: 20px;
+    position: absolute;
+    color: rgb(250, 248, 248);
+}
+#BARRA2{
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    width: 1000PX;
+    transform-origin: 0px 0px;
+}
+
+.PELICULAS_ATRAVES{
+    display: flex;
+}
+
+.ATRAVES{
+    color: white;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+    justify-content: space-around;
+
+}
+
+img{
+margin: 6PX 0 0 6PX;
+border: 1PX solid black;
+border-radius: 4PX;
+font-size: 70PX;
+box-shadow: 0 0 20PX rgba(0, 0, 0, 0.993);
+}
+img:HOVER{
+    box-shadow: inset 0 0 20PX black;
+}
